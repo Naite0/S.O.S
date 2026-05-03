@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.O.S - Triagem Digital</title>
+    <link rel="stylesheet" href="login(style).css">
+</head>
+<body>
+    <div class="barrainicial">
+        <a href="home.html" class="voltar">←</a>
+        <img src="imagens/logo.png" alt="Logo" height="110px" width="115px">
+        <p style="color: whitesmoke; font-size: 40px; ">S.O.S</p>
+    </div>
+    <div class="conteudo">
+        <br><br><br>
+        <p style="font-size: 50px; text-align: center;">Bem-Vindo!</p>
+    </div>
+    <div class="conteudo">
+        <form>
+            <label for="name"></label> <br>
+            <input class="input" type="text" id="name" name="name" placeholder="Nome" required>
+
+            <label for="email"></label>
+            <input class="input" type="email" id="email" name="email" placeholder="E-mail"
+                required>
+
+            <label for="password"></label>
+            <input class="input" type="password" id="password" name="password" placeholder="Senha"
+                required>
+
+            <label for="date"></label>
+            <input class="input-date" type="date" name="date" id="date" required>
+
+            <label for="sexo"></label>
+            <select class="input-genero" id="sexo" name="sexo">
+                <option value="">Selecione seu Sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+                <br><br>
+                <button class="input-button" type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
