@@ -50,7 +50,7 @@ form {
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 
-  width: 500px;                         /* 👈 aumenta o tamanho do fundo */
+  width: 1750px;                         /*  aumenta o tamanho do fundo */
   margin: 40px auto;                    /* centraliza e dá espaço em cima */
 
   font-size: 18px;
@@ -84,7 +84,7 @@ form {
 }
 
 .input-button {
-  width: 100%;      
+  width: 60%;      
   padding: 14px;
   margin: 12px 0;
   border-radius: 8px;
@@ -96,13 +96,15 @@ form {
 }
 
 .checkbox-area {
-  margin: 15px 0;
-  font-size: 16px;
+  transform: scale(3.5);
+  margin: 10px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 .checkbox-area input {
   margin-right: 8px;
-  transform: scale(1.5); /* deixa a caixinha maior */
+  transform: scale(2); /* deixa a caixinha maior */
   cursor: pointer;
 }
 
@@ -136,4 +138,3 @@ form {
 .voltar:active {
   transform: translateY(-50%) scale(0.95);
 }
-
