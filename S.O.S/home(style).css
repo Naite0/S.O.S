@@ -5,6 +5,11 @@
   box-sizing: border-box; /* facilita controle de tamanho */
 }
 
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
 /* Barra inicial (tipo navbar) */
 .barrainicial {
   background-color: #98AA9E; /* cor de fundo */
@@ -76,3 +81,83 @@
     color: #95A69C;
 }
 
+.bicho-retangular {
+  background-color: #6A7C70;
+  border: 2px;
+  width: 900px;
+  height: 200px;
+  margin-left: 250px;
+  margin-top: 220px;
+  border-radius: 15px;
+}
+
+.bicho-retangular2 {
+  background-color: #6A7C70;
+  border: 2px;
+  width: 900px;
+  height: 200px;
+  margin-left: 250px;
+  margin-top: 75px;
+  border-radius: 15px;
+}
+
+.bicho-retangular3 {
+  background-color: #6A7C70;
+  border: 2px;
+  width: 900px;
+  height: 200px;
+  margin-left: 250px;
+  margin-top: 75px;
+  border-radius: 15px;
+}
+
+
+.texto1 {
+  color: #F3EFE3;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 8px;
+  transform: translateY(15px);
+}
+
+.texto2 {
+  color: #F3EFE3;
+  transform: translateX(35px) translateY(60px);
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.texto3 {
+  color: #F3EFE3;
+  transform: translateX(465px);
+  font-size: 25px;
+  letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.texto4 {
+  color: #F3EFE3;
+  transform: translateX(150px) translateY(40px);
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.texto5 {
+  color: #F3EFE3;
+  transform: translateX(310px) translateY(40px);
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.imagem1 {
+  position: absolute;
+  top: 575px;
+  right: -200px;
+  width: 1150px;   /* aumenta tamanho */
+  height: auto;   /* mantém proporção */
+  border-radius: 50px; /* arredonda */
+  overflow: hidden;
+}
