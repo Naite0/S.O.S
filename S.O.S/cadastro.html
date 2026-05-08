@@ -19,7 +19,7 @@
         <p style="font-size: 50px; text-align: center;">Bem-Vindo!</p>
     </div>
     <div class="conteudo">
-        <form action="aviso.html">
+        <form onsubmit="mudarTelas(event)">
             <label for="name">Nome:</label> <br>
             <input class="input" type="text" id="name" name="name" placeholder="Ex: Maria Silva" required><br><br>
 
@@ -47,10 +47,12 @@
                     <input type="checkbox" name="checkbox" id="checkbox">
                     Tenho alguma doença pré-existente
                 </label>
+            </div>
                 <br><br>
                 <button class="input-button" type="submit">Cadastrar-se</button>
         </form>
     </div>
+    <script src="cadastro.js"></script>
 </body>
 
 </html>
