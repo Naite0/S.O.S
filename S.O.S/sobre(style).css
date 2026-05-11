@@ -12,8 +12,10 @@
   height: 115px;
 
   display: flex;
-  justify-content: center; /* centraliza horizontal */
-  align-items: center;     /* centraliza vertical */
+  justify-content: center;
+  /* centraliza horizontal */
+  align-items: center;
+  /* centraliza vertical */
   gap: 10px;
 }
 
@@ -46,7 +48,7 @@ body::before {
 
 
 .input {
-  width: 100%;      
+  width: 100%;
   padding: 14px;
   margin: 12px 0;
   border-radius: 8px;
@@ -55,7 +57,7 @@ body::before {
 }
 
 .input-date {
-  width: 100%;      
+  width: 100%;
   padding: 14px;
   margin: 12px 0;
   border-radius: 8px;
@@ -64,7 +66,7 @@ body::before {
 }
 
 .input-genero {
-  width: 100%;      
+  width: 100%;
   padding: 14px;
   margin: 12px 0;
   border-radius: 8px;
@@ -73,7 +75,7 @@ body::before {
 }
 
 .input-button {
-  width: 25%;      
+  width: 25%;
   padding: 14px;
   margin: 12px 0;
   border-radius: 8px;
@@ -93,7 +95,8 @@ body::before {
 
 .checkbox-area input {
   margin-right: 8px;
-  transform: scale(2); /* deixa a caixinha maior */
+  transform: scale(2);
+  /* deixa a caixinha maior */
   cursor: pointer;
 }
 
@@ -132,12 +135,14 @@ body::before {
   position: relative;
   z-index: 1;
 
-  background-color: rgba(151, 172, 131, 0.9); /* fundo branco suave */
+  background-color: rgba(151, 172, 131, 0.9);
+  /* fundo branco suave */
   padding: 30px;
   border-radius: 12px;
 
   width: 650px;
-  margin: 40px auto; /* centraliza */
+  margin: 40px auto;
+  /* centraliza */
   text-align: center;
   font-size: 55px;
 }
@@ -153,6 +158,7 @@ body::before {
   z-index: 1;
   font-size: 35px;
 }
+
 /* Reset geral: remove margens e espaçamentos padrão do navegador */
 * {
   margin: 0;
@@ -167,8 +173,10 @@ body::before {
   height: 115px;
 
   display: flex;
-  justify-content: center; /* centraliza horizontal */
-  align-items: center;     /* centraliza vertical */
+  justify-content: center;
+  /* centraliza horizontal */
+  align-items: center;
+  /* centraliza vertical */
   gap: 10px;
 }
 
@@ -201,7 +209,7 @@ body::before {
 
 
 .input {
-  width: 100%;      
+  width: 100%;
   padding: 14px;
   margin: 12px 0;
   border-radius: 8px;
@@ -210,7 +218,7 @@ body::before {
 }
 
 .input-date {
-  width: 100%;      
+  width: 100%;
   padding: 14px;
   margin: 12px 0;
   border-radius: 8px;
@@ -219,7 +227,7 @@ body::before {
 }
 
 .input-genero {
-  width: 100%;      
+  width: 100%;
   padding: 14px;
   margin: 12px 0;
   border-radius: 8px;
@@ -228,7 +236,7 @@ body::before {
 }
 
 .input-button {
-  width: 750px;      
+  width: 750px;
   padding: 50px;
   margin: 12px 0;
   border-radius: 8px;
@@ -242,7 +250,7 @@ body::before {
 }
 
 .input-button2 {
-  width: 750px;      
+  width: 750px;
   padding: 50px;
   margin: 12px 0;
   border-radius: 8px;
@@ -264,7 +272,8 @@ body::before {
 
 .checkbox-area input {
   margin-right: 8px;
-  transform: scale(2); /* deixa a caixinha maior */
+  transform: scale(2);
+  /* deixa a caixinha maior */
   cursor: pointer;
 }
 
@@ -329,12 +338,14 @@ body::before {
   position: relative;
   z-index: 1;
 
-  background-color: rgba(151, 172, 131, 0.9); /* fundo branco suave */
+  background-color: rgba(151, 172, 131, 0.9);
+  /* fundo branco suave */
   padding: 30px;
   border-radius: 12px;
 
   width: 650px;
-  margin: 40px auto; /* centraliza */
+  margin: 40px auto;
+  /* centraliza */
   text-align: center;
   font-size: 55px;
 }
@@ -352,20 +363,46 @@ body::before {
 }
 
 .titulo {
-    font-size: 105px;
+  font-size: 105px;
 }
 
 .subtitulo {
-    font-size: 45px;
-    margin-top: -5px;
-    
+  font-size: 45px;
+  margin-top: -5px;
+
 }
 
 .header-texto {
   display: flex;
-  flex-direction: column; /* um embaixo do outro */
-  align-items: center;    /* centraliza horizontal */
+  flex-direction: column;
+  /* um embaixo do outro */
+  align-items: center;
+  /* centraliza horizontal */
   margin-top: 25px;
   position: relative;
   z-index: 1;
+}
+
+.bicho-retangular {
+  position: relative;
+  z-index: 1;
+  background-color: #6A7C70;
+  border: 2px;
+  width: 900px;
+  height: 200px;
+  margin-left: 250px;
+  margin-top: 220px;
+  border-radius: 15px;
+}
+
+.bicho-retangular2 {
+  position: relative;
+  z-index: 1;
+  background-color: #6A7C70;
+  border: 2px;
+  width: 900px;
+  height: 200px;
+  margin-left: 250px;
+  margin-top: 75px;
+  border-radius: 15px;
 }
