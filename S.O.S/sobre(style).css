@@ -388,9 +388,9 @@ body::before {
   z-index: 1;
   background-color: #6A7C70;
   border: 2px;
-  width: 900px;
-  height: 200px;
-  margin-left: 250px;
+  width: 1650px;
+  height: 250px;
+  margin-left: 330px;
   margin-top: 220px;
   border-radius: 15px;
 }
@@ -400,8 +400,8 @@ body::before {
   z-index: 1;
   background-color: #6A7C70;
   border: 2px;
-  width: 900px;
-  height: 200px;
+  width: 1650px;
+  height: 250px;
   margin-left: 250px;
   margin-top: 75px;
   border-radius: 15px;
