@@ -18,14 +18,20 @@
     <div class="header-texto">
         <br><br><br>
         <p class="titulo">Bem-Vindo!</p>
-        <p class="subtitulo">Jonas</p>
+        <p class="subtitulo" id="user_name"></p>
         <form class="header-texto" action="#">
-            <button class="input-button" type="submit">Registrar novos sintomas</button>
-            <button class="input-button2" type="submit">Olhar seu histórico</button>
+            <a class="input-button" href="registro.html" >Registrar novos sintomas</a>
+            <a class="input-button2" type="submit" href="#" >Olhar seu histórico</a>
         </form>
     </div>
 
-    
+    <script> //Deixar o JS na parte de baixo do código
+        
+        let user_name = JSON.parse(localStorage.getItem("usuario"))
+
+        document.getElementById("user_name").innerHTML = user_name.nome_user //Cita o nome registrado do usuário
+
+    </script>
 
       
 </body>
