@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* facilita controle de tamanho */
+  box-sizing: border-box;
+  /* facilita controle de tamanho */
 }
 
 body {
@@ -14,39 +15,63 @@ hr {
   border: none;
   height: 5px;
 
-  background: linear-gradient(
-    to right,
-    transparent,
-    black,
-    transparent
-  );
+  background: linear-gradient(to right,
+      transparent,
+      black,
+      transparent);
 
   margin: 50px 0;
 }
+
 /* Barra inicial (tipo navbar) */
 .barrainicial {
-  background-color: #98AA9E; /* cor de fundo */
-  height: 115px;             /* altura da barra */
-  display: flex;             /* ativa flexbox (alinha itens lado a lado) */
-  align-items: center;       /* centraliza verticalmente */
-  gap: 5px;                  /* espaço entre os elementos */
+  background-color: #98AA9E;
+  /* cor de fundo */
+  height: 115px;
+  /* altura da barra */
+  display: flex;
+  /* ativa flexbox (alinha itens lado a lado) */
+  align-items: center;
+  /* centraliza verticalmente */
+  gap: 5px;
+  /* espaço entre os elementos */
+  position: sticky;
+  top: 0;
+
+  height: 100px;
+  background: #98AA9E;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1000;
 }
 
 /* Área da direita (Cadastro e Login) */
 .direita {
-  margin-left: auto; /* empurra os itens pra direita */
-  margin-right: 20px; /* espaço da borda direita */
-  display: flex;       /* deixa os itens lado a lado */
-  gap: 20px;           /* espaço entre Cadastro e Login */
+  margin-left: auto;
+  /* empurra os itens pra direita */
+  margin-right: 20px;
+  /* espaço da borda direita */
+  display: flex;
+  /* deixa os itens lado a lado */
+  gap: 20px;
+  /* espaço entre Cadastro e Login */
 }
 
 /* Estilo dos textos (quando usados como botão) */
 .direita h3 {
-  cursor: pointer;          /* muda o cursor ao passar o mouse */
-  border-radius: 10px;      /* borda arredondada */
-  font-size: 25px;          /* tamanho do texto */
-  border: 2px solid black;  /* borda visível */
-  padding: 5px 15px;        /* espaço interno */
+  cursor: pointer;
+  /* muda o cursor ao passar o mouse */
+  border-radius: 10px;
+  /* borda arredondada */
+  font-size: 25px;
+  /* tamanho do texto */
+  border: 2px solid black;
+  /* borda visível */
+  padding: 5px 15px;
+  /* espaço interno */
 }
 
 /* Classe para textos maiores */
@@ -56,7 +81,8 @@ hr {
 
 /* Estilo de botão (usado em <a>) */
 .botao-cadastro {
-  text-decoration: none; /* remove sublinhado do link */
+  text-decoration: none;
+  /* remove sublinhado do link */
   background-color: #688A65;
   color: black;
   border-radius: 10px;
@@ -64,11 +90,13 @@ hr {
   padding: 8px 20px;
   font-size: 20px;
   cursor: pointer;
-  transition: 0.3s; /* animação suave */
+  transition: 0.3s;
+  /* animação suave */
 }
 
 .botao-login {
-  text-decoration: none; /* remove sublinhado do link */
+  text-decoration: none;
+  /* remove sublinhado do link */
   background-color: #B3C9D6;
   color: black;
   border-radius: 10px;
@@ -76,7 +104,8 @@ hr {
   padding: 8px 20px;
   font-size: 20px;
   cursor: pointer;
-  transition: 0.3s; /* animação suave */
+  transition: 0.3s;
+  /* animação suave */
 }
 
 /* Efeito ao passar o mouse */
@@ -91,7 +120,7 @@ hr {
 }
 
 .destaque {
-    color: #95A69C;
+  color: #95A69C;
 }
 
 .bicho-retangular {
@@ -160,7 +189,7 @@ hr {
 
   background-image:
     linear-gradient(rgba(45, 53, 55, 0.7),
-    rgba(45, 53, 55, 0.7)),
+      rgba(45, 53, 55, 0.7)),
     url(imagens/background_rodape.jpeg);
 
   background-size: cover;
@@ -190,7 +219,7 @@ hr {
   transform: translateX(465px);
   font-size: 25px;
   letter-spacing: 1px;
-    line-height: 30px;
+  line-height: 30px;
 }
 
 .texto4 {
@@ -213,6 +242,7 @@ hr {
   color: #F3EFE3;
   text-align: center;
   font-size: 40px;
+  padding: 10px;
   letter-spacing: 1px;
   line-height: 68px;
   transform: translateY(25px);
@@ -236,7 +266,7 @@ hr {
 
 .textorodape1 {
   color: #F3EFE3;
-  background-color: #3F4A4D;
+  background-color: rgba(63,74,77,0.6);
   width: 500px;
   font-size: 30px;
   letter-spacing: 1px;
@@ -245,7 +275,7 @@ hr {
 
 .textorodape2 {
   color: #F3EFE3;
-  background-color: #3F4A4D;
+  background-color: rgba(63,74,77,0.6);
   width: 450px;
   font-size: 20px;
   letter-spacing: 1px;
@@ -254,7 +284,7 @@ hr {
 
 .textorodape3 {
   color: #F3EFE3;
-  background-color: #3F4A4D;
+  background-color: rgba(63,74,77,0.6);
   width: 750px;
   font-size: 25px;
   letter-spacing: 1px;
@@ -263,11 +293,12 @@ hr {
 
 .textorodape4 {
   color: #F3EFE3;
-  background-color: #3F4A4D;
+  background-color: rgba(63,74,77,0.6);
   width: 650px;
   font-size: 25px;
   letter-spacing: 1px;
   transform: translateX(40px) translateY(20px);
+  line-height: 32px;
 }
 
 .links-rodape {
@@ -303,9 +334,12 @@ hr {
   position: absolute;
   top: 575px;
   right: -200px;
-  width: 1150px;   /* aumenta tamanho */
-  height: auto;   /* mantém proporção */
-  border-radius: 50px; /* arredonda */
+  width: 1150px;
+  /* aumenta tamanho */
+  height: auto;
+  /* mantém proporção */
+  border-radius: 50px;
+  /* arredonda */
   overflow: hidden;
   border: 5px solid #466070;
 }
@@ -313,9 +347,12 @@ hr {
 .imagem2 {
   margin-top: 70px;
   transform: translateX(95px);
-  width: 320px;   /* aumenta tamanho */
-  height: auto;   /* mantém proporção */
-  border-radius: 10px; /* arredonda */
+  width: 320px;
+  /* aumenta tamanho */
+  height: auto;
+  /* mantém proporção */
+  border-radius: 10px;
+  /* arredonda */
   overflow: hidden;
   border: 5px solid #2E7E29;
 }
@@ -323,9 +360,12 @@ hr {
 .imagem3 {
   margin-top: 70px;
   transform: translateX(600px);
-  width: 320px;   /* aumenta tamanho */
-  height: auto;   /* mantém proporção */
-  border-radius: 10px; /* arredonda */
+  width: 320px;
+  /* aumenta tamanho */
+  height: auto;
+  /* mantém proporção */
+  border-radius: 10px;
+  /* arredonda */
   overflow: hidden;
   border: 5px solid #AE5128;
 }
