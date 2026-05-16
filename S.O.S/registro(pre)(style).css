@@ -85,19 +85,19 @@ form {
 
 .input-button {
   width: 60%;      
-  padding: 14px;
+  padding: 25px;
   margin: 12px 0;
   border-radius: 8px;
   background-color: #6A7C70;
   color: white;
   border: 1px solid #ccc;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 
 .checkbox-area {
   transform: scale(3.5);
-  margin: 10px;
+  margin: 11px;
   font-size: 25px;
   cursor: pointer;
 }

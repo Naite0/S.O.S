@@ -18,7 +18,7 @@
         <br><br><br>
         <p style="font-size: 50px; text-align: center;">Bem-Vindo!</p>
     </div>
-    <div class="conteudo">
+    <div class="conteudo"> <!-- testar javascript se funciona -->
         <form onsubmit="mudarTelas(event)">
             <label for="name">Nome:</label> <br>
             <input class="input" type="text" id="name" name="name" placeholder="Ex: Maria Silva" required><br><br>
@@ -28,11 +28,12 @@
                 required><br><br>
 
             <label for="password">Senha:</label> <br>
-            <input class="input" type="password" id="password" name="password" placeholder="Digite sua Senha"
-                required><br><br>
+            <input class="input" type="password" id="password" name="password" placeholder="Digite sua Senha" required
+                minlength="8"><br><br>
 
             <label for="date">Data de Nascimento:</label>
-            <input class="input-date" type="date" name="date" id="date" required> <br><br>
+            <input class="input-date" type="date" name="date" id="date" required min="1900-01-01" max="2026-05-31">
+            <br><br>
 
             <label for="sexo">Sexo:</label>
             <select class="input-genero" id="sexo" name="sexo">
@@ -48,8 +49,8 @@
                     Tenho alguma doença pré-existente
                 </label>
             </div>
-                <br><br>
-                <button class="input-button" type="submit">Cadastrar-se</button>
+            <br><br>
+            <button class="input-button" type="submit">Cadastrar-se</button>
         </form>
     </div>
     <script src="cadastro.js"></script>
